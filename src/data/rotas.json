@@ -1,0 +1,110 @@
+[
+  {
+    "id": "rota-lua-ben",
+    "origem": "Luanda",
+    "destino": "Benguela",
+    "saidas": ["06:00", "08:30", "11:00", "13:30", "16:00", "18:30", "20:00", "22:00"],
+    "duracaoMedia": "~ 7h 00min",
+    "distanciaKm": 540,
+    "classeServico": "Rede Express",
+    "frequenciaDiaria": 8,
+    "tarifaBase": 18000,
+    "status": "Ativa"
+  },
+  {
+    "id": "rota-lua-lob",
+    "origem": "Luanda",
+    "destino": "Lobito",
+    "saidas": ["06:30", "09:00", "12:00", "15:00", "17:30", "20:30"],
+    "duracaoMedia": "~ 7h 30min",
+    "distanciaKm": 560,
+    "classeServico": "Rede Express",
+    "frequenciaDiaria": 6,
+    "tarifaBase": 19000,
+    "status": "Ativa"
+  },
+  {
+    "id": "rota-lua-hmb",
+    "origem": "Luanda",
+    "destino": "Huambo",
+    "saidas": ["06:00", "09:00", "12:30", "16:00", "19:30", "22:00"],
+    "duracaoMedia": "~ 8h 30min",
+    "distanciaKm": 620,
+    "classeServico": "Rede Express + Leito Noturno",
+    "frequenciaDiaria": 6,
+    "tarifaBase": 22000,
+    "status": "Ativa"
+  },
+  {
+    "id": "rota-ben-lob",
+    "origem": "Benguela",
+    "destino": "Lobito",
+    "saidas": ["06:00", "07:30", "09:00", "10:30", "12:00", "13:30", "15:00", "16:30", "18:00", "19:30", "21:00"],
+    "duracaoMedia": "~ 40min",
+    "distanciaKm": 30,
+    "classeServico": "Conexão Corredor SUL",
+    "frequenciaDiaria": 11,
+    "tarifaBase": 2500,
+    "status": "Ativa"
+  },
+  {
+    "id": "rota-ben-hmb",
+    "origem": "Benguela",
+    "destino": "Huambo",
+    "saidas": ["06:30", "10:00", "14:00", "17:30", "21:00"],
+    "duracaoMedia": "~ 4h 00min",
+    "distanciaKm": 280,
+    "classeServico": "Rede Express",
+    "frequenciaDiaria": 5,
+    "tarifaBase": 14000,
+    "status": "Ativa"
+  },
+  {
+    "id": "volta-101",
+    "origem": "Viana",
+    "destino": "Maianga",
+    "saidas": ["05:30", "06:00", "06:30", "07:00", "07:30", "08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00"],
+    "duracaoMedia": "~ 1h 10min",
+    "distanciaKm": 18,
+    "classeServico": "Volta Urbana 101",
+    "frequenciaDiaria": 14,
+    "tarifaBase": 300,
+    "status": "Ativa"
+  },
+  {
+    "id": "volta-102",
+    "origem": "Cazenga",
+    "destino": "Ingombota",
+    "saidas": ["05:45", "06:15", "06:45", "07:15", "07:45", "08:15", "08:45", "09:15", "09:45", "10:15", "10:45", "11:15"],
+    "duracaoMedia": "~ 55min",
+    "distanciaKm": 14,
+    "classeServico": "Volta Urbana 102",
+    "frequenciaDiaria": 12,
+    "tarifaBase": 250,
+    "status": "Ativa"
+  },
+  {
+    "id": "volta-103",
+    "origem": "Luanda Sul",
+    "destino": "Bairro Operário",
+    "saidas": ["05:30", "06:00", "06:30", "07:00", "07:30", "08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30"],
+    "duracaoMedia": "~ 1h 05min",
+    "distanciaKm": 16,
+    "classeServico": "Volta Urbana 103",
+    "frequenciaDiaria": 15,
+    "tarifaBase": 300,
+    "status": "Ativa"
+  },
+  {
+    "id": "volta-104",
+    "origem": "Kilamba",
+    "destino": "Talatona",
+    "saidas": ["06:00", "06:30", "07:00", "07:30", "08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30"],
+    "duracaoMedia": "~ 50min",
+    "distanciaKm": 12,
+    "classeServico": "Volta Urbana 104",
+    "frequenciaDiaria": 12,
+    "tarifaBase": 250,
+    "status": "Ativa"
+  }
+]

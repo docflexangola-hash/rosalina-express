@@ -1,0 +1,83 @@
+[
+  {
+    "id": "hub-01-luanda",
+    "nome": "Terminal Central de Luanda",
+    "cidade": "Luanda",
+    "provincia": "Luanda",
+    "endereco": "Av. Ho Chi Minh, Central Rodoviária Nacional - Luanda",
+    "telefone": "+244 923 521 224",
+    "horario": "05H00 - 22H00",
+    "hub": "HUB 01 // SEDE & MATRIZ",
+    "coordenadas": { "lat": -8.838333, "lng": 13.234444 },
+    "descricao": "Província de Luanda. Sede e matriz com fluxo coordenado.",
+    "servicos": [
+      "Bilheteira VIP Expresso",
+      "Embarque Interurbano",
+      "Despacho Cargas & Carga Pesada",
+      "Lounge Climatizado Wi-Fi",
+      "Restaurante & Cafetaria Rosalina"
+    ],
+    "partidas": "PARTIDAS DE 30 EM 30 MINUTOS",
+    "ordem": 1
+  },
+  {
+    "id": "hub-02-benguela",
+    "nome": "Terminal Rodoviário de Benguela",
+    "cidade": "Benguela",
+    "provincia": "Benguela",
+    "endereco": "Av. da Independência, Plataforma Rosalina, Bairro Cassoco - Benguela",
+    "telefone": "+244 922 410 882",
+    "horario": "05H30 - 21H30",
+    "hub": "HUB 02 // CORREDOR SUL",
+    "coordenadas": { "lat": -12.579167, "lng": 13.405 },
+    "descricao": "Província de Benguela. Conexão ao eixo sul.",
+    "servicos": [
+      "Balcões de Expedição Rápida",
+      "Conexão Direta Benguela-Lobito",
+      "Armazém de Retenção e Cargas",
+      "Balcão de Bagagens Perdidas"
+    ],
+    "partidas": "LIGAÇÕES DIÁRIAS A LUANDA E HUAMBO",
+    "ordem": 2
+  },
+  {
+    "id": "hub-03-lobito",
+    "nome": "Terminal Interprovincial do Lobito",
+    "cidade": "Lobito",
+    "provincia": "Benguela",
+    "endereco": "Zona Comercial, adjacente à Estação Ferroviária CFB, Lobito",
+    "telefone": "+244 923 881 204",
+    "horario": "06H00 - 20H30",
+    "hub": "HUB 03 // CIDADE PORTUÁRIA DO LOBITO",
+    "coordenadas": { "lat": -12.353333, "lng": 13.544444 },
+    "descricao": "Cidade portuária do Lobito. Corredor interprovincial.",
+    "servicos": [
+      "Bilhética Expresso e Shuttles Portuários",
+      "Ponto de Entrega de Pequenas Encomendas",
+      "Serviços Integrados de Frotas",
+      "Balcão de Informações & Apoio Turístico"
+    ],
+    "partidas": "INTERLIGAÇÃO RODO-FERROVIÁRIA",
+    "ordem": 3
+  },
+  {
+    "id": "hub-04-huambo",
+    "nome": "Terminal Regional do Huambo",
+    "cidade": "Huambo",
+    "provincia": "Huambo",
+    "endereco": "Parque Rodoviário Rosalina, Cidade Alta, Estrada Nacional 120 - Huambo",
+    "telefone": "+244 925 119 033",
+    "horario": "05H30 - 21H00",
+    "hub": "HUB 04 // PLANALTO CENTRAL",
+    "coordenadas": { "lat": -12.775, "lng": 15.733889 },
+    "descricao": "Província do Huambo. Conexão central do planalto.",
+    "servicos": [
+      "Linhas Executivas Noturnas (Leito)",
+      "Entreposto de Cargas do Planalto",
+      "Área de Triagem Agrícola e Encomendas",
+      "Sala VIP com Bebidas Quentes"
+    ],
+    "partidas": "SERVIÇO LEITO NOTURNO DISPONÍVEL",
+    "ordem": 4
+  }
+]

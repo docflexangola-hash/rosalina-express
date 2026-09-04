@@ -1,0 +1,185 @@
+export const v2SobreContent = {
+  hero: {
+    badge: "SOBRE NÓS",
+    title: "Grupo Rosalina Express",
+    subtitle:
+      "Grupo empresarial 100% angolano fundado em 2004, actuando nos segmentos de Transportes, Hotelaria, Restauração e Combustíveis. Mais de duas décadas a conectar Angola.",
+    stat: "20+",
+    statLabel: "Anos de história",
+  },
+  stats: {
+    badge: "NÚMEROS-CHAVE",
+    items: [
+      {
+        value: "20+",
+        label: "Anos",
+        text: "De operação ininterrupta",
+      },
+      {
+        value: "4",
+        label: "Províncias",
+        text: "Luanda, Benguela, Huambo, Lobito",
+      },
+      {
+        value: "25+",
+        label: "Parques",
+        text: "Próprios em território nacional",
+      },
+      {
+        value: "4",
+        label: "Segmentos",
+        text: "Transporte, Hotelaria, Restauração, Combustíveis",
+      },
+    ],
+  },
+  segmentos: {
+    badge: "OS NOSSOS SEGMENTOS",
+    title: "4 áreas de negócio",
+    items: [
+      {
+        num: "01",
+        icon: "local_shipping",
+        bg: "primary",
+        title: "Transportes & Logística",
+        bullets: [
+          "Rede Express interprovincial",
+          "Sistema Voltas urbano",
+          "Shuttle executivo",
+          "Carga expressa e encomendas",
+        ],
+      },
+      {
+        num: "02",
+        icon: "hotel",
+        bg: "tertiary",
+        title: "Hotelaria",
+        bullets: [
+          "Hotéis de trânsito em Luanda e Benguela",
+          "Quartos executivos climatizados",
+          "Segurança privada 24 horas",
+          "Apoio a tripulações técnicas",
+        ],
+      },
+      {
+        num: "03",
+        icon: "restaurant",
+        bg: "secondary",
+        title: "Restauração",
+        bullets: [
+          "Restaurantes rodoviários",
+          "Catering para viagens expresso",
+          "Auditoria sanitária permanente",
+          "Culinária angolana de qualidade",
+        ],
+      },
+      {
+        num: "04",
+        icon: "local_gas_station",
+        bg: "surface",
+        title: "Combustíveis",
+        bullets: [
+          "Postos na EN100 e principais eixos",
+          "Gasóleo e gasolina refinados",
+          "Centro de lubrificantes",
+          "Atendimento a frotas de terceiros",
+        ],
+      },
+    ],
+  },
+  timeline: {
+    badge: "NOSSA HISTÓRIA",
+    title: "Cronologia: 2004 — 2026",
+    marcos: [
+      {
+        ano: "ANO 2004",
+        numBg: "primary",
+        title: "Fundação da Rosalina Express",
+        text: "Primeira operação regular de transporte entre Luanda e Benguela com 12 autocarros e compromisso absoluto de segurança e pontualidade.",
+        despacho: "DESPACHO INAUGURAL: 12 AUTOCARROS",
+        despachoCor: "primary",
+        final: false,
+      },
+      {
+        ano: "ANO 2011",
+        numBg: "tertiary",
+        title: "Expansão para o Plano Central",
+        text: "Expansão para Huambo e Lobito. Instalação de centros técnicos de apoio operacional e oficinas pesadas 24 horas.",
+        despacho: "ESTRUTURAÇÃO: OFICINAS PESADAS 24H",
+        despachoCor: "tertiary",
+        final: false,
+      },
+      {
+        ano: "ANO 2017",
+        numBg: "secondary",
+        title: "Nascimento do Grupo Rosalina",
+        text: "Consolidação como holding. Investimentos em postos de combustível, unidades hoteleiras executivas e restaurantes rodoviários.",
+        despacho: "CRIAÇÃO: GRUPO ROSALINA HOLDING",
+        despachoCor: "secondary",
+        final: false,
+      },
+      {
+        ano: "ANO 2021",
+        numBg: "tertiaryContainer",
+        title: "Sistema Voltas — Mobilidade Urbana",
+        text: "Entrada no transporte metropolitano de Luanda com rotas integradas ligando Viana, Cacuaco, Kilamba e Mutamba.",
+        despacho: "COBERTURA URBANA: +50 MIL PASS/DIA",
+        despachoCor: "primary",
+        final: false,
+      },
+      {
+        ano: "ANO 2026",
+        numBg: "primaryContainer",
+        title: "Digitalização Total",
+        text: "Rastreamento satelital de 100% da frota, veículos Scania/Mercedes-Benz de baixa emissão, emissão digital de bilhetes e controlo em tempo real.",
+        despacho: "ESTADO ATUAL: DIGITALIZAÇÃO TOTAL",
+        despachoCor: "primary",
+        final: true,
+      },
+    ],
+  },
+  terminais: {
+    badge: "NOSSOS TERMINAIS",
+    title: "Pontos de atendimento",
+    items: [
+      {
+        city: "LUANDA",
+        name: "Central Maianga",
+        address: "Largo Das Escolas, Maianga",
+        phone: "+244 924 720 533",
+        email: "comercial@rosalinaexpress.com",
+        horario: "Seg-Dom 06:00 — 20:00",
+        primary: true,
+      },
+      {
+        city: "LUANDA",
+        name: "Terminal Zango 0",
+        address: "Estrada Zango / Calumbo, Luanda",
+        phone: "+244 942 235 692",
+        email: "geral@rosalinaexpress.com",
+        horario: "Seg-Dom 06:00 — 20:00",
+        primary: false,
+      },
+    ],
+  },
+  certificacoes: {
+    badge: "CERTIFICAÇÕES",
+    title: "Homologação e conformidade",
+    items: [
+      {
+        icon: "policy",
+        title: "MINTRANS",
+        text: "Licenciamento completo para transporte colectivo interurbano e urbano",
+      },
+      {
+        icon: "verified_user",
+        title: "DTSER // POLÍCIA",
+        text: "Frota 100% inspecionada pela Direcção de Trânsito e Segurança Rodoviária",
+      },
+      {
+        icon: "eco",
+        title: "EURO 5 / EURO 6",
+        text: "Programa de redução activa de pegada de carbono e renovação de motorizações",
+      },
+    ],
+  },
+};

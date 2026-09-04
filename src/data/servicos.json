@@ -1,0 +1,73 @@
+[
+  {
+    "id": "rede-express",
+    "nome": "Rede Express Interurbana",
+    "slug": "rede-express",
+    "icone": "directions_bus",
+    "descricao": "Linhas de média e longa distância entre Luanda, Benguela, Lobito e Huambo, com frota Marcopolo G7 / Scania de alto padrão.",
+    "especificacoes": [
+      { "label": "Frota", "valor": "Marcopolo G7 / Scania" },
+      { "label": "Capacidade", "valor": "52-64 PAX" },
+      { "label": "Classe", "valor": "Semi-leito" },
+      { "label": "Conectividade", "valor": "USB 2.4A + Wi-Fi" },
+      { "label": "Climatização", "valor": "Dual Zone" }
+    ],
+    "ordem": 1
+  },
+  {
+    "id": "voltas-urbanas",
+    "nome": "Voltas Urbanas",
+    "slug": "voltas-urbanas",
+    "icone": "commute",
+    "descricao": "Linhas urbanas 101-104 em Luanda, com cadência regular de partidas e paragens estratégicas.",
+    "especificacoes": [
+      { "label": "Linhas", "valor": "101, 102, 103, 104" },
+      { "label": "Cadência", "valor": "20-30 min" },
+      { "label": "Tarifa", "valor": "250-300 KZ" },
+      { "label": "Horário", "valor": "05h30 - 12h30" }
+    ],
+    "ordem": 2
+  },
+  {
+    "id": "shuttles-corporativos",
+    "nome": "Shuttles Corporativos",
+    "slug": "shuttles-corporativos",
+    "icone": "airport_shuttle",
+    "descricao": "Soluções VIP sob medida: transfers aeroporto, recepção protocolar e apoio logístico a delegações.",
+    "especificacoes": [
+      { "label": "Veículos", "valor": "Mercedes Sprinter VIP" },
+      { "label": "Capacidade", "valor": "8-19 PAX" },
+      { "label": "Segmento", "valor": "Executive B2B" },
+      { "label": "Serviços", "valor": "Transfers, protocolo, eventos" }
+    ],
+    "ordem": 3
+  },
+  {
+    "id": "aluguer-frotas",
+    "nome": "Aluguer de Frotas",
+    "slug": "aluguer-frotas",
+    "icone": "car_rental",
+    "descricao": "Aluguer de viaturas e frotas dedicadas para empresas, eventos e operações especiais.",
+    "especificacoes": [
+      { "label": "Modalidade", "valor": "Dedicado / temporário" },
+      { "label": "Segmentos", "valor": "Corporativo, eventos, instituições" },
+      { "label": "Motorista", "valor": "Incluído" },
+      { "label": "Contrato", "valor": "Flexível" }
+    ],
+    "ordem": 4
+  },
+  {
+    "id": "logistica-cargas",
+    "nome": "Logística de Cargas",
+    "slug": "logistica-cargas",
+    "icone": "local_shipping",
+    "descricao": "Transporte e logística de cargas pesadas, encomendas e mercadorias ao longo dos eixos estratégicos.",
+    "especificacoes": [
+      { "label": "Tipo", "valor": "Carga pesada, encomendas" },
+      { "label": "Corredores", "valor": "Costeiro, planalto central" },
+      { "label": "Rastreamento", "valor": "GPS em tempo real" },
+      { "label": "Armazenagem", "valor": "Entrepostos próprios" }
+    ],
+    "ordem": 5
+  }
+]
