@@ -32,12 +32,12 @@ export const metadata: Metadata = {
   applicationName: "Rosalina Express",
   icons: {
     icon: [
-      { url: "/logo3.webp", type: "image/webp", sizes: "any" },
+      { url: "/favicon.png", type: "image/png", sizes: "any" },
     ],
     apple: [
-      { url: "/logo3.webp", type: "image/webp", sizes: "180x180" },
+      { url: "/favicon.png", type: "image/png", sizes: "180x180" },
     ],
-    shortcut: [{ url: "/logo3.webp", type: "image/webp" }],
+    shortcut: [{ url: "/favicon.png", type: "image/png" }],
   },
 };
 
@@ -62,6 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
           rel="stylesheet"
         />
+        <link rel="apple-touch-icon" href="/favicon.png" />
       </head>
       <body className="min-h-full flex flex-col bg-surface text-on-surface">
         <Header />
