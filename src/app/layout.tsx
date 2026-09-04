@@ -31,8 +31,13 @@ export const metadata: Metadata = {
     "Rosalina Express — transporte rodoviário e logística em Angola. Rede Express, Voltas Urbanas, Shuttles corporativos e aluguer de cargas.",
   applicationName: "Rosalina Express",
   icons: {
-    icon: [{ url: "/logo.png", type: "image/png" }],
-    apple: "/logo.png",
+    icon: [
+      { url: "/logo3.webp", type: "image/webp", sizes: "any" },
+    ],
+    apple: [
+      { url: "/logo3.webp", type: "image/webp", sizes: "180x180" },
+    ],
+    shortcut: [{ url: "/logo3.webp", type: "image/webp" }],
   },
 };
 

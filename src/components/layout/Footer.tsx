@@ -27,7 +27,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3 bg-surface-container-lowest p-2 border-2 border-on-surface max-w-fit">
               <Image
-                src="/logo.webp"
+                src="/logo3.webp"
                 alt="Logo da Rosalina Express"
                 width={108}
                 height={32}

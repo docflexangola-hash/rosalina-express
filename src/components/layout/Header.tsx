@@ -43,7 +43,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3 group">
           <div className="flex items-center gap-2 p-1.5 bg-surface-container-lowest border-2 border-on-surface shadow-[2px_2px_0px_0px_#0c1a3b] group-hover:-translate-x-0.5 group-hover:-translate-y-0.5 group-hover:shadow-[4px_4px_0px_0px_#0c1a3b] transition-all">
             <Image
-              src="/logo.webp"
+              src="/logo3.webp"
               alt="Logo da Rosalina Express"
               width={120}
               height={36}

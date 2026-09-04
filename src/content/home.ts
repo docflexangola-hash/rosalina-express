@@ -1,8 +1,4 @@
 const img = {
-  heroCoach:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuAfoupr0llG2LrsSS8afprF5ZUXTdPfim13-MV79P4AazaAfAAV_-LaU-EZNuDuGFS8Kcyk2WsGFV_GPqSsy8dxheTbdaYx-40EzhLvISB2kPZdTkghfCjvHUJ7HHu0Z2pRVvDVYuWoElQOJvvCI0uxT1diq_lOvGPazhPHIJHsXZxJODwZVk3t7gHYRuXfB5u9G946KXSFsjJPcPqsg5d2YHaIgbJh5w4-iSsrXK4uJXuEfY8kKFVFsw",
-  sobrePassengers:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuD8CWE9nCyYmfePjCirD6TwnQo_NoZDEV9fj8g6lkRQP4P3gHWRDVadG7nh_Coi7gnr5SGFDux9zSu5iwk5BuSSFEVbOhJUeEwSf6E0GwfzBtJsgC0EU2BxSRC4FsLzt4ZBFx91A03-fuFy2Tr4rdSOrKZXhzgLb8l9MSQGtP62H2_fdG4924hhpjzGspCJmegnFlaaoiOHHYEqXs69Wl4NeakYAxZNVgt-mnTd4YBTpZr12K2mY64XxQ",
   newsMultiviagens:
     "https://lh3.googleusercontent.com/aida-public/AB6AXuDAy5IR4FrwfJWrbEayBa90E6hGWMeIIK__357aIXsRE3qJnHgf9ehDRepMXK4GbiogTrbj4Z3t2y-XctNFnFchGl4pfdw9o0kCHVWiLWirRELkx2c8yvWw1EFu2ttI1t3hsAm5RnM_LgtyYKZfEQBth8UoHPgyIHjL7LDOLyYxUdfMc3iFWDD420i94oAy-y6Nu9jamPdvGhSolk4MHTjP4SF6zpO7K0M7VSfEkgPup-4pi14JYVCNrA",
   newsCallCenter:
@@ -21,9 +17,9 @@ export const homeContent = {
       "Mais de 20 anos a conectar Luanda, Benguela, Huambo e Lobito. Frota moderna, motoristas profissionais, rastreamento em tempo real e atendimento 24/7. Reserve a sua viagem ou rastreie a sua encomenda agora mesmo.",
     buttons: [
       {
-        label: "Ver Rotas",
-        icon: "route",
-        href: "/servicos",
+        label: "Reservar Bilhete",
+        icon: "confirmation_number",
+        href: "/booking",
         bg: "primary-container",
       },
       {
@@ -33,16 +29,10 @@ export const homeContent = {
         bg: "tertiary",
       },
       {
-        label: "Outros Serviços",
-        icon: "category",
-        href: "/servicos",
-        bg: "primary-container",
-      },
-      {
         label: "Sobre Nós",
         icon: "info",
         href: "/sobre",
-        bg: "tertiary",
+        bg: "primary-container",
       },
     ],
   },
@@ -70,7 +60,7 @@ export const homeContent = {
     corridorRef: "RODO-CORRIDOR-A1",
     programTitle: "METRO-BUS & EXPRESS",
     status: "EM ROTA",
-    image: img.heroCoach,
+    image: img.newsMultiviagens,
     imageTagline: "VIP COMFORT CLASS",
     fleetLabel: "FROTA MARCOPOLO G7 / SCANIA",
     routes: [
@@ -93,28 +83,28 @@ export const homeContent = {
     ],
   },
   statsRibbon: {
-    label: "MÉTRICAS CONSOLIDADAS — ANGOLA RODOVIÁRIA",
-    cert: "CERTIFICAÇÃO OPERACIONAL 2026",
+    label: "MÉTRICAS OPERACIONAIS — FROTA ATIVA EM ANGOLA",
+    cert: "OPERAÇÃO EM TEMPO REAL 2026",
     items: [
       {
-        value: "20+",
-        title: "Anos de Liderança",
-        text: "Conectando famílias, cidades e mercadorias com confiabilidade comprovada.",
+        value: "169",
+        title: "Viaturas em Circulação",
+        text: "Frota activa em 6 cidades: Luanda, Benguela, Lobito, Lubango, Mutamba e Bengo.",
       },
       {
-        value: "4",
-        title: "Grandes Segmentos",
-        text: "Transportes, Hotelaria, Restauração e Combustíveis integrados.",
+        value: "27",
+        title: "Rotas Operacionais",
+        text: "Conexões urbanas e interurbanas com frequências regulares de 5 a 40 minutos.",
       },
       {
-        value: "100%",
-        title: "Capital Angolano",
-        text: "Compromisso total com o desenvolvimento das infraestruturas do país.",
+        value: "6",
+        title: "Cidades Servidas",
+        text: "Cobertura metropolitana Voltas + Rede Express interurbana em Luanda.",
       },
       {
-        value: "25+",
-        title: "Parques e Terminais",
-        text: "Rede própria de bilheteiras, armazéns de trânsito e oficinas autorizadas.",
+        value: "9.800",
+        title: "Viaturas Reduzidas",
+        text: "Menos veículos individuais nas horas de ponta com a Rede Express Luanda.",
       },
     ],
   },
@@ -122,7 +112,7 @@ export const homeContent = {
     badge: "Sobre Nós — Institucional",
     titleTop: "Grupo",
     titleAccent: "Rosalina Express",
-    image: img.sobrePassengers,
+    image: "/autocarros.jpg",
     imageFrameLabel: "GRUPO ROSALINA",
     imageFrameTag: "PATRIMÓNIO NACIONAL",
     cardTitle: "Elegância, Requinte & Conforto",
@@ -242,13 +232,13 @@ export const homeContent = {
   terminais: {
     label: "TERMINAIS & CORREDORES",
     title: "Rede de Cobertura Rodoviária Nacional",
-    badges: ["4 POLOS ATIVOS", "EXPEDIÇÃO DIÁRIA"],
+    badges: ["6 POLOS ATIVOS", "FROTA 169 VIATURAS"],
     list: [
       {
         hub: "HUB 01 // PRINCIPAL",
         city: "LUANDA",
         name: "Central Rodoviária Ho Chi Minh",
-        address: "Av. Ho Chi Minh, Centro Operacional Luanda",
+        address: "Av. Ho Chi Minh, Central Rede Express, Luanda",
         icon: "call",
         info: "+244 923 521 224",
         primary: true,
@@ -257,18 +247,45 @@ export const homeContent = {
         hub: "HUB 02 // SUL",
         city: "BENGUELA",
         name: "Terminal Central de Benguela",
-        address: "Av. da Independência, Plataforma Rosalina",
-        icon: "schedule",
-        info: "Chegadas e partidas a cada 3h",
+        address: "Av. da Independência, Plataforma Rosalina, Benguela",
+        icon: "directions_bus",
+        info: "Rotas BG5 – Benfica, Benfica – Mira Mar",
         primary: false,
       },
       {
         hub: "HUB 03 // PLANALTO",
-        city: "HUAMBO",
-        name: "Terminal Regional Huambo",
-        address: "Parque Rodoviário Rosalina Express",
-        icon: "schedule",
-        info: "Ligações diárias diretas com Luanda",
+        city: "LOBITO",
+        name: "Terminal do Lobito",
+        address: "Terminal Metropolitano, Lobito",
+        icon: "directions_bus",
+        info: "6 rotas activas • 37 viaturas",
+        primary: false,
+      },
+      {
+        hub: "HUB 04 // LITORAL",
+        city: "BENGO",
+        name: "Terminal de Caxito",
+        address: "Caxito, Província do Bengo",
+        icon: "directions_bus",
+        info: "3 rotas: Sassa – Kifangondo, Mabubas – Açucareira",
+        primary: false,
+      },
+      {
+        hub: "HUB 05 // METROPOLITANO",
+        city: "MUTAMBA",
+        name: "Estação de Mutamba",
+        address: "Maianga / Kinaxixi / Sagrada → Mutamba, Luanda",
+        icon: "directions_bus",
+        info: "26 viaturas • 3 rotas activas",
+        primary: false,
+      },
+      {
+        hub: "HUB 06 // SUL ALTO",
+        city: "LUBANGO",
+        name: "Terminal do Lubango",
+        address: "Estátua da Liberdade, Lubango",
+        icon: "directions_bus",
+        info: "8 rotas • 20 viaturas • Humpata",
         primary: false,
       },
     ],
@@ -278,9 +295,9 @@ export const homeContent = {
     mapBadge: "BASE MATRIZ",
     mapCardTitle: "Central Rede Express",
     mapCardText:
-      "Venda direta de bilhetes, despacho aduaneiro de bagagem e partida de comboios rodoviários.",
+      "Venda directa de bilhetes, rastreamento de cargas e partida de comboios rodoviários Rede Express Luanda.",
     mapFooterText:
-      "Terminal com parqueamento seguro e sala VIP com ar-condicionado",
+      "Terminal com parqueamento seguro, sala VIP climatizada e atendimento presencial das 5h00 às 20h00",
     mapsLink: "https://maps.google.com/?q=Central+Rodovi%C3%A1ria+Rede+Express+Luanda",
   },
   noticias: {
@@ -331,14 +348,14 @@ export const homeContent = {
     badge: "RESERVA IMEDIATA DE VIAGEM & CARGA",
     title: "PRONTO PARA VIAJAR COM A LÍDER NACIONAL?",
     description:
-      "Milhares de passageiros e empresas confiam na Rosalina Express todos os dias. Garanta o seu bilhete com antecedência ou despache a sua mercadoria em segurança!",
-    primaryCta: "Consultar Horários e Rotas",
-    secondaryCta: "Falar com a Central (+244 923 521 224)",
+      "Compre o seu bilhete online em segundos ou contacte a nossa central para reservas de grupos, fretamento e transporte de cargas. Frota activa em Luanda, Benguela, Lobito, Bengo, Mutamba e Lubango.",
+    primaryCta: "Consultar Horários e Reservar",
+    secondaryCta: "Ligar (+244 923 521 224)",
     phone: "+244923521224",
     perks: [
-      "BAGAGEM PROTEGIDA",
-      "PAGAMENTO SEGURO POR MULTICAIXA",
-      "ATENDIMENTO 7 DIAS POR SEMANA",
+      "BAGAGEM PROTEGIDA ATÉ 25 KG",
+      "PAGAMENTO MULTICAIXA EXPRESS",
+      "TELEFONE: +244 923 521 224",
     ],
   },
 };

@@ -15,7 +15,7 @@ export function SelecaoRota() {
   const [dataField, setDataField] = useState(data.data);
   const [passageiros, setPassageiros] = useState(data.passageiros);
 
-  const cidades = ["LUANDA", "BENGUELA", "HUAMBO", "LOBITO"];
+  const cidades = ["LUANDA", "BENGUELA", "LOBITO", "LUBANGO", "BENGO", "MUTAMBA"];
 
   const filteredRoutes = routes.filter(
     (r) => r.origem === origem && r.destino === destino,

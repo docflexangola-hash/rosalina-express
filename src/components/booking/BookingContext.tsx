@@ -29,8 +29,8 @@ export type BookingData = {
 const STORAGE_KEY = "rosalina.booking.v1";
 
 const defaultData: BookingData = {
-  routeId: "RE-014",
-  data: "2026-10-24",
+  routeId: "VOL-LU-01",
+  data: "2026-09-04",
   passageiros: 1,
   passengerName: "",
   passengerBI: "",
@@ -39,10 +39,10 @@ const defaultData: BookingData = {
   seat: "",
   baggageExtras: {
     volumeExtra: false,
-    seguro: true,
+    seguro: false,
   },
   paymentMethod: "multicaixa",
-  totalKz: 19200,
+  totalKz: 500,
 };
 
 type BookingContextValue = {
