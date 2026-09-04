@@ -22,7 +22,7 @@ export function SobrePreview() {
               </div>
               <Image
                 src={sobre.image}
-                alt="Passageiros em frente a um autocarro da Rosalina Express"
+                alt="Motoristas profissionais da Rosalina Express"
                 width={640}
                 height={360}
                 sizes="(max-width: 1024px) 100vw, 50vw"

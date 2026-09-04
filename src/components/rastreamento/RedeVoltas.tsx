@@ -44,7 +44,7 @@ export function RedeVoltas() {
           <MaterialIcon name={voltas.sublabelIcon} className="text-sm" />
           {voltas.sublabel}
         </div>
-        <h3 className="font-headline-lg text-headline-lg uppercase text-on-surface mb-3">
+        <h3 className="font-headline-lg text-2xl sm:text-3xl lg:text-headline-lg uppercase text-on-surface mb-3">
           {voltas.title}
         </h3>
         <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4 max-w-3xl">
@@ -56,10 +56,10 @@ export function RedeVoltas() {
         </span>
 
         <div className="bg-tertiary border-2 border-on-surface shadow-[6px_6px_0px_0px_#0c1a3b] p-4 mb-8">
-          <div className="font-label-code text-label-code uppercase text-primary-fixed mb-1">
+          <div className="font-label-code text-label-code uppercase text-primary-fixed mb-1 text-xs sm:text-sm">
             {voltas.terminalOverlay}
           </div>
-          <div className="font-label-code text-label-code uppercase text-on-tertiary">
+          <div className="font-label-code text-label-code uppercase text-on-tertiary text-xs sm:text-sm">
             {voltas.terminalFleet}
           </div>
         </div>

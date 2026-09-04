@@ -26,7 +26,7 @@ export function RadarTelemetria() {
           </div>
         </div>
 
-        <h3 className="font-headline-lg text-headline-lg uppercase text-on-surface mb-6">
+        <h3 className="font-headline-lg text-2xl sm:text-3xl lg:text-headline-lg uppercase text-on-surface mb-6">
           {radar.title}
         </h3>
 
@@ -45,7 +45,7 @@ export function RadarTelemetria() {
                 {radar.markers.map((m, i) => (
                   <span
                     key={i}
-                    className="absolute font-label-code text-label-code uppercase text-on-surface-variant"
+                    className="absolute font-label-code text-label-code uppercase text-on-surface-variant text-xs"
                     style={{ left: `${(i / (radar.markers.length - 1)) * 100}%`, transform: "translateX(-50%)" }}
                   >
                     {m.label}

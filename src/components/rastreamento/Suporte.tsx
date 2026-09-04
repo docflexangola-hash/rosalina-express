@@ -13,7 +13,7 @@ export function Suporte() {
               <MaterialIcon name={suporte.sublabelIcon} className="text-sm" />
               {suporte.sublabel}
             </div>
-            <h3 className="font-headline-lg text-headline-lg uppercase text-white">
+            <h3 className="font-headline-lg text-2xl sm:text-3xl lg:text-headline-lg uppercase text-white">
               {suporte.title}
             </h3>
             <p className="font-body-md text-body-md text-primary-fixed leading-relaxed mt-3">
@@ -45,7 +45,7 @@ export function Suporte() {
                   href={c.href}
                   target={c.href.startsWith("http") ? "_blank" : undefined}
                   rel={c.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                  className={`flex-1 font-headline-sm text-headline-sm uppercase px-6 py-4 border-2 border-on-surface shadow-[4px_4px_0px_0px_#0c1a3b] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[6px_6px_0px_0px_#0c1a3b] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all inline-flex items-center justify-center gap-2 ${
+                  className={`flex-1 font-headline-sm text-headline-sm uppercase px-4 sm:px-6 py-3 sm:py-4 border-2 border-on-surface shadow-[4px_4px_0px_0px_#0c1a3b] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[6px_6px_0px_0px_#0c1a3b] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all inline-flex items-center justify-center gap-2 ${
                     c.cor === "primary-container"
                       ? "bg-primary-container text-on-primary"
                       : c.cor === "surface-container-lowest"

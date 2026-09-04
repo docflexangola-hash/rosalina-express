@@ -17,6 +17,12 @@ export const homeContent = {
       "Mais de 20 anos a conectar Luanda, Benguela, Huambo e Lobito. Frota moderna, motoristas profissionais, rastreamento em tempo real e atendimento 24/7. Reserve a sua viagem ou rastreie a sua encomenda agora mesmo.",
     buttons: [
       {
+        label: "Ver Rotas",
+        icon: "route",
+        href: "/servicos",
+        bg: "primary-container",
+      },
+      {
         label: "Reservar Bilhete",
         icon: "confirmation_number",
         href: "/booking",
@@ -32,7 +38,7 @@ export const homeContent = {
         label: "Sobre Nós",
         icon: "info",
         href: "/sobre",
-        bg: "primary-container",
+        bg: "tertiary",
       },
     ],
   },
@@ -112,7 +118,7 @@ export const homeContent = {
     badge: "Sobre Nós — Institucional",
     titleTop: "Grupo",
     titleAccent: "Rosalina Express",
-    image: "/autocarros.jpg",
+    image: "/motoristas.jpg",
     imageFrameLabel: "GRUPO ROSALINA",
     imageFrameTag: "PATRIMÓNIO NACIONAL",
     cardTitle: "Elegância, Requinte & Conforto",

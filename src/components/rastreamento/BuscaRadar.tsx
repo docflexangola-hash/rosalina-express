@@ -13,32 +13,32 @@ export function BuscaRadar() {
   return (
     <section id="busca-radar" className="w-full bg-surface border-b-4 border-on-surface">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <div className="flex items-center justify-between mb-6 font-label-code text-label-code uppercase text-on-surface-variant">
+        <div className="flex items-center justify-between mb-6 font-label-code text-label-code uppercase text-on-surface-variant text-xs sm:text-sm">
           <span>{'///'} {busca.cornerRef}</span>
         </div>
         <div className="bg-surface-container-lowest border-2 border-on-surface shadow-[6px_6px_0px_0px_#0c1a3b]">
-          <div className="bg-tertiary text-on-tertiary border-b-2 border-on-surface px-6 py-4 flex flex-wrap items-center gap-3">
+          <div className="bg-tertiary text-on-tertiary border-b-2 border-on-surface px-4 sm:px-6 py-4 flex flex-wrap items-center gap-3">
             <MaterialIcon name={busca.badgeIcon} className="text-base text-primary-fixed" />
-            <span className="font-label-code text-label-code uppercase">
+            <span className="font-label-code text-label-code uppercase text-xs sm:text-sm">
               {busca.badge}
             </span>
           </div>
 
-          <div className="p-6 md:p-8">
-            <h2 className="font-display-hero text-display-hero uppercase text-on-surface leading-none tracking-tight">
+          <div className="p-4 sm:p-6 md:p-8">
+            <h2 className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero uppercase text-on-surface leading-none tracking-tight">
               {busca.title}
             </h2>
             <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mt-3 max-w-2xl">
               {busca.paragraph}
             </p>
 
-            <div className="mt-6 border-2 border-on-surface inline-flex">
+            <div className="mt-6 border-2 border-on-surface inline-flex flex-wrap w-full sm:w-auto">
               {busca.tabs.map((t) => (
                 <button
                   key={t.id}
                   type="button"
                   onClick={() => setTab(t.id as "passenger" | "cargo")}
-                  className={`px-4 py-3 font-label-code text-label-code uppercase flex items-center gap-2 border-r-2 border-on-surface last:border-r-0 ${
+                  className={`px-3 sm:px-4 py-3 font-label-code text-label-code uppercase flex items-center gap-2 border-r-2 border-on-surface last:border-r-0 flex-1 sm:flex-initial text-xs sm:text-sm ${
                     tab === t.id
                       ? "bg-primary-container text-on-primary"
                       : "bg-surface-container-high text-on-surface"
@@ -52,7 +52,7 @@ export function BuscaRadar() {
 
             {tab === "passenger" ? (
               <div className="mt-6">
-                <label className="block font-label-code text-label-code uppercase text-on-surface-variant mb-2 flex items-center gap-2">
+                <label className="block font-label-code text-label-code uppercase text-on-surface-variant mb-2 flex items-center gap-2 text-xs sm:text-sm">
                   <MaterialIcon name={busca.passenger.labelIcon} className="text-base text-secondary" />
                   {busca.passenger.label}
                 </label>
@@ -78,7 +78,7 @@ export function BuscaRadar() {
                   </button>
                 </div>
                 <div className="mt-4">
-                  <span className="font-label-code text-label-code uppercase text-on-surface-variant">
+                  <span className="font-label-code text-label-code uppercase text-on-surface-variant text-xs sm:text-sm">
                     {busca.passenger.suggestionsLabel}
                   </span>
                   <div className="flex flex-wrap gap-2 mt-2">
@@ -97,7 +97,7 @@ export function BuscaRadar() {
               </div>
             ) : (
               <div className="mt-6">
-                <label className="block font-label-code text-label-code uppercase text-on-surface-variant mb-2 flex items-center gap-2">
+                <label className="block font-label-code text-label-code uppercase text-on-surface-variant mb-2 flex items-center gap-2 text-xs sm:text-sm">
                   <MaterialIcon name={busca.cargo.labelIcon} className="text-base text-secondary" />
                   {busca.cargo.label}
                 </label>
@@ -123,7 +123,7 @@ export function BuscaRadar() {
                   </button>
                 </div>
                 <div className="mt-4">
-                  <span className="font-label-code text-label-code uppercase text-on-surface-variant">
+                  <span className="font-label-code text-label-code uppercase text-on-surface-variant text-xs sm:text-sm">
                     {busca.cargo.suggestionsLabel}
                   </span>
                   <div className="flex flex-wrap gap-2 mt-2">

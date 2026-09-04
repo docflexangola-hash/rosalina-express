@@ -34,7 +34,7 @@ export function QuadroHorarios() {
           <MaterialIcon name={horarios.sublabelIcon} className="text-sm" />
           {horarios.sublabel}
         </div>
-        <h3 className="font-headline-lg text-headline-lg uppercase text-on-surface mb-6">
+        <h3 className="font-headline-lg text-2xl sm:text-3xl lg:text-headline-lg uppercase text-on-surface mb-6">
           {horarios.title}
         </h3>
 
@@ -56,11 +56,11 @@ export function QuadroHorarios() {
         </div>
 
         <div className="bg-surface-container-highest border-2 border-on-surface shadow-[6px_6px_0px_0px_#0c1a3b] overflow-x-auto">
-          <table className="w-full font-body-sm text-body-sm text-on-surface">
+          <table className="w-full font-body-sm text-body-sm text-on-surface text-xs sm:text-sm">
             <thead>
-              <tr className="bg-tertiary text-on-tertiary font-label-code text-label-code uppercase">
+              <tr className="bg-tertiary text-on-tertiary font-label-code text-label-code uppercase text-xs sm:text-sm">
                 {horarios.columns.map((c) => (
-                  <th key={c} className="px-4 py-3 text-left border-r-2 border-secondary last:border-r-0">
+                  <th key={c} className="px-2 sm:px-4 py-2 sm:py-3 text-left border-r-2 border-secondary last:border-r-0">
                     {c}
                   </th>
                 ))}
