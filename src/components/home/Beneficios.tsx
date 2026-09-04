@@ -12,7 +12,7 @@ export function Beneficios() {
             <MaterialIcon name="star" className="text-sm" />
             {beneficios.badge}
           </div>
-          <h2 className="font-display-hero text-display-hero uppercase text-on-tertiary tracking-tight">
+          <h2 className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero uppercase text-on-tertiary tracking-tight">
             {beneficios.title}
           </h2>
           <p className="font-body-lg text-body-lg text-secondary-fixed-dim">

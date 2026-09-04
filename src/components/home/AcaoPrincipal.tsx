@@ -31,7 +31,7 @@ export function AcaoPrincipal() {
             </Reveal>
 
             <Reveal stagger={2}>
-              <h1 className="font-display-hero text-display-hero uppercase text-on-surface leading-none tracking-tight">
+              <h1 className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero uppercase text-on-surface leading-none tracking-tight">
                 {acaoPrincipal.title}
               </h1>
             </Reveal>

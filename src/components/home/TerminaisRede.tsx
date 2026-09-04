@@ -45,7 +45,7 @@ export function TerminaisRede() {
                     >
                       {t.hub}
                     </span>
-                    <span className="bg-tertiary text-on-tertiary px-1.5 py-0.5 text-[10px]">
+                    <span className="bg-tertiary text-on-tertiary px-1.5 py-0.5 text-xs">
                       {t.city}
                     </span>
                   </div>
@@ -74,18 +74,19 @@ export function TerminaisRede() {
               </span>
               <span>{terminais.mapCoord}</span>
             </div>
-            <div className="w-full h-80 sm:h-96 my-3 border-2 border-on-surface relative overflow-hidden">
+            <div className="w-full h-48 sm:h-64 lg:h-80 my-3 border-2 border-on-surface relative overflow-hidden">
               <Image
                 src={terminais.mapImage}
                 alt="Mapa de localização da Central Rodoviária Luanda"
                 width={800}
-                height={480}
+                height={400}
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-6 left-6 bg-surface-container-lowest border-2 border-on-surface p-3 shadow-[4px_4px_0px_0px_#0c1a3b] max-w-xs">
-                <span className="bg-primary-container text-on-primary font-label-code text-[10px] px-1.5 py-0.5 uppercase border border-on-surface inline-block mb-1">
-                  {terminais.mapBadge}
-                </span>
+                  <span className="bg-primary-container text-on-primary font-label-code text-xs px-1.5 py-0.5 uppercase border border-on-surface inline-block mb-1">
+                    {terminais.mapBadge}
+                  </span>
                 <p className="font-headline-sm text-headline-sm uppercase text-on-surface font-black">
                   {terminais.mapCardTitle}
                 </p>

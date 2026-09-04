@@ -40,7 +40,7 @@ export function MobileMenu() {
       />
 
       <div
-        className={`fixed left-0 right-0 top-20 z-50 bg-surface-container-lowest border-b-2 border-on-surface shadow-[0_8px_24px_rgba(12,26,59,0.2)] transition-transform duration-200 origin-top xl:hidden ${
+        className={`fixed left-0 right-0 top-[108px] z-50 bg-surface-container-lowest border-b-2 border-on-surface shadow-[0_8px_24px_rgba(12,26,59,0.2)] transition-transform duration-200 origin-top xl:hidden ${
           open ? "scale-y-100" : "scale-y-0"
         }`}
       >

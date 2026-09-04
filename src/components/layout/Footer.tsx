@@ -138,7 +138,7 @@ export function Footer() {
 
         <div className="pt-6 flex flex-col md:flex-row items-center justify-between gap-4 font-label-code text-label-code uppercase tracking-wider text-surface-variant">
           <div className="flex items-center gap-3">
-            <span className="px-2 py-0.5 bg-tertiary text-on-tertiary border border-secondary text-[10px]">
+            <span className="px-2 py-0.5 bg-tertiary text-on-tertiary border border-secondary text-xs">
               STATUS: ATIVO
             </span>
             <span>© 2026 {site.fullName}. Todos os direitos reservados.</span>

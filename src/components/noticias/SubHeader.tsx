@@ -36,7 +36,7 @@ export function SubHeader() {
               <MaterialIcon name="warning" className="text-xs" />
               {subHeader.alertBadge}
             </span>
-            <h1 className="font-display-hero text-display-hero uppercase text-white leading-none tracking-tight mt-4">
+            <h1 className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero uppercase text-white leading-none tracking-tight mt-4">
               {subHeader.title}
             </h1>
             <p className="font-headline-lg text-headline-lg text-primary-fixed mt-3 uppercase">

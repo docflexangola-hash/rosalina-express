@@ -27,12 +27,12 @@ export function StatsRibbon() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {statsRibbon.items.map((item, i) => (
             <div key={item.title} className="border-l-4 border-on-primary pl-4 py-1">
-              <div className="font-display-hero text-display-hero font-black leading-none mb-1 text-on-primary flex items-baseline gap-1">
+              <div className="font-display-hero text-4xl sm:text-display-hero font-black leading-none mb-1 text-on-primary flex items-baseline gap-1">
                 <AnimatedNumber
                   target={numericValues[i]}
                   suffix={statsRibbon.items[i].value.replace(/[\d]/g, "")}
                   duration={1200}
-                  className="font-display-hero text-display-hero font-black"
+                  className="font-display-hero text-4xl sm:text-display-hero font-black"
                 />
               </div>
               <div className="font-headline-sm text-headline-sm uppercase text-on-primary-container">

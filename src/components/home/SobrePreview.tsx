@@ -24,8 +24,9 @@ export function SobrePreview() {
                 src={sobre.image}
                 alt="Passageiros em frente a um autocarro da Rosalina Express"
                 width={640}
-                height={500}
-                className="w-full h-80 object-cover border-2 border-on-surface mb-3"
+                height={360}
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="w-full h-48 sm:h-64 lg:h-80 object-cover border-2 border-on-surface mb-3"
               />
               <div className="bg-surface-container-lowest text-on-surface p-3 border-2 border-on-surface">
                 <span className="font-headline-sm text-headline-sm uppercase block text-primary-container font-black">
@@ -47,7 +48,8 @@ export function SobrePreview() {
               <MaterialIcon name="badge" className="text-sm" />
               <span>{sobre.badge}</span>
             </div>
-            <h2 className="font-display-hero text-display-hero uppercase text-on-surface leading-none tracking-tight">
+              <h2 className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero uppercase text-on-surface leading-none tracking-tight">
+
               {sobre.titleTop}{" "}
               <span className="text-primary-container">{sobre.titleAccent}</span>
             </h2>

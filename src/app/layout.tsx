@@ -30,6 +30,10 @@ export const metadata: Metadata = {
   description:
     "Rosalina Express — transporte rodoviário e logística em Angola. Rede Express, Voltas Urbanas, Shuttles corporativos e aluguer de cargas.",
   applicationName: "Rosalina Express",
+  icons: {
+    icon: [{ url: "/logo.png", type: "image/png" }],
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

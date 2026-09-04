@@ -15,7 +15,7 @@ export function ServicosGrid() {
               <MaterialIcon name="local_shipping" className="text-xs" />
               <span>{servicos.badgeLabel}</span>
             </div>
-            <h2 className="font-display-hero text-display-hero uppercase text-on-surface tracking-tight leading-none">
+            <h2 className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero uppercase text-on-surface tracking-tight leading-none">
               {servicos.title}
             </h2>
             <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-2">
@@ -32,7 +32,7 @@ export function ServicosGrid() {
         </div>
 
         {/* Services Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {servicos.items.map((s, i) => (
             <Reveal key={s.title} stagger={Math.min(i + 1, 6) as 1 | 2 | 3 | 4 | 5 | 6}>
               <div

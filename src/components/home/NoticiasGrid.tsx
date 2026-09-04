@@ -14,7 +14,7 @@ export function NoticiasGrid() {
               <MaterialIcon name="newspaper" className="text-xs" />
               <span>{noticias.badge}</span>
             </div>
-            <h2 className="font-display-hero text-display-hero uppercase text-on-surface tracking-tight leading-none">
+            <h2 className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero uppercase text-on-surface tracking-tight leading-none">
               {noticias.titleTop}{" "}
               <span className="text-primary-container">{noticias.titleAccent}</span>
             </h2>
@@ -42,8 +42,9 @@ export function NoticiasGrid() {
                     src={n.image}
                     alt={n.title}
                     width={480}
-                    height={288}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                    height={270}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="w-full h-40 sm:h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-5 space-y-2">

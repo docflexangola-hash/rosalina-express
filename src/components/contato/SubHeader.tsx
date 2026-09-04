@@ -19,7 +19,7 @@ export function SubHeader() {
             <span className="inline-flex items-center gap-2 bg-primary-container border-2 border-on-surface px-3 py-1 font-label-tracking text-label-tracking uppercase text-on-primary mb-4">
               {subHeader.badge}
             </span>
-            <h1 className="font-display-hero text-display-hero uppercase text-white leading-none tracking-tight">
+            <h1 className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero uppercase text-white leading-none tracking-tight">
               {subHeader.title}
             </h1>
             <p className="font-headline-lg text-headline-lg text-primary-fixed mt-3 uppercase">

@@ -46,7 +46,7 @@ export function SubHeader() {
             <span className="font-label-code text-label-code uppercase text-secondary">
               {clockLabel}
             </span>
-            <div className="font-display-hero text-display-hero text-white bg-tertiary px-4 py-2 border-2 border-on-surface shadow-[4px_4px_0px_0px_#0c1a3b] card-brutal animate-pulse">
+              <div className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero text-white bg-tertiary px-4 py-2 border-2 border-on-surface shadow-[4px_4px_0px_0px_#0c1a3b] card-brutal animate-pulse">
               {luandaTime || "--:--:--"}
             </div>
           </div>
@@ -57,7 +57,7 @@ export function SubHeader() {
               <MaterialIcon name="hub" className="text-xs" />
               {liveBadge}
             </span>
-            <h1 className="font-display-hero text-display-hero uppercase text-on-surface leading-none tracking-tight mt-4">
+            <h1 className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero uppercase text-on-surface leading-none tracking-tight mt-4">
               {title}
             </h1>
           </div>

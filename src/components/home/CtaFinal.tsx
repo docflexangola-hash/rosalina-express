@@ -13,7 +13,7 @@ export function CtaFinal() {
           <MaterialIcon name="airplane_ticket" className="text-sm text-primary-fixed" />
           {cta.badge}
         </div>
-        <h2 className="font-display-hero text-display-hero uppercase tracking-tighter text-on-primary leading-none">
+          <h2 className="font-display-hero text-3xl sm:text-4xl lg:text-display-hero uppercase tracking-tighter text-on-primary leading-none">
           {cta.title}
         </h2>
         <p className="font-body-lg text-body-lg text-on-primary/95 max-w-2xl mx-auto leading-relaxed">
@@ -22,14 +22,14 @@ export function CtaFinal() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <Link
             href="/rastreamento"
-            className="w-full sm:w-auto bg-surface-container-lowest text-on-surface font-headline-sm text-headline-sm uppercase px-8 py-4 border-2 border-on-surface shadow-[5px_5px_0px_0px_#0c1a3b] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[7px_7px_0px_0px_#0c1a3b] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2 font-black"
+            className="w-full sm:w-auto bg-surface-container-lowest text-on-surface font-headline-sm text-headline-sm uppercase px-4 sm:px-8 py-3 sm:py-4 border-2 border-on-surface shadow-[5px_5px_0px_0px_#0c1a3b] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[7px_7px_0px_0px_#0c1a3b] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2 font-black"
           >
             <MaterialIcon name="confirmation_number" />
             <span>{cta.primaryCta}</span>
           </Link>
           <a
             href={`tel:${cta.phone}`}
-            className="w-full sm:w-auto bg-on-surface text-surface-container-lowest font-headline-sm text-headline-sm uppercase px-8 py-4 border-2 border-surface-container-lowest shadow-[5px_5px_0px_0px_#ffffff] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[7px_7px_0px_0px_#ffffff] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2 font-black"
+            className="w-full sm:w-auto bg-on-surface text-surface-container-lowest font-headline-sm text-headline-sm uppercase px-4 sm:px-8 py-3 sm:py-4 border-2 border-surface-container-lowest shadow-[5px_5px_0px_0px_#ffffff] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[7px_7px_0px_0px_#ffffff] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2 font-black"
           >
             <MaterialIcon name="phone_in_talk" />
             <span>{cta.secondaryCta}</span>
