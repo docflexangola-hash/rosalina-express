@@ -14,6 +14,38 @@ const img = {
 };
 
 export const homeContent = {
+  acaoPrincipal: {
+    badge: "GRUPO ROSALINA EXPRESS",
+    title: "Transporte rápido e seguro em Angola",
+    paragraph:
+      "Mais de 20 anos a conectar Luanda, Benguela, Huambo e Lobito. Frota moderna, motoristas profissionais, rastreamento em tempo real e atendimento 24/7. Reserve a sua viagem ou rastreie a sua encomenda agora mesmo.",
+    buttons: [
+      {
+        label: "Ver Rotas",
+        icon: "route",
+        href: "/servicos",
+        bg: "primary-container",
+      },
+      {
+        label: "Rastrear Viagem / Encomenda",
+        icon: "gps_fixed",
+        href: "/rastreamento",
+        bg: "tertiary",
+      },
+      {
+        label: "Outros Serviços",
+        icon: "category",
+        href: "/servicos",
+        bg: "primary-container",
+      },
+      {
+        label: "Sobre Nós",
+        icon: "info",
+        href: "/sobre",
+        bg: "tertiary",
+      },
+    ],
+  },
   hero: {
     tag: "HUB CENTRAL // EXPEDIÇÃO & REDE EXPRESS",
     titleTop: "CONECTANDO",

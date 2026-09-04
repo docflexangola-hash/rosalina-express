@@ -1,5 +1,5 @@
 import {
-  HeroBooking,
+  AcaoPrincipal,
   StatsRibbon,
   SobrePreview,
   ServicosGrid,
@@ -12,7 +12,7 @@ import {
 export default function Home() {
   return (
     <>
-      <HeroBooking />
+      <AcaoPrincipal />
       <StatsRibbon />
       <SobrePreview />
       <ServicosGrid />

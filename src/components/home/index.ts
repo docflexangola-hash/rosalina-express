@@ -1,3 +1,4 @@
+export { AcaoPrincipal } from "./AcaoPrincipal";
 export { HeroBooking } from "./HeroBooking";
 export { StatsRibbon } from "./StatsRibbon";
 export { SobrePreview } from "./SobrePreview";
