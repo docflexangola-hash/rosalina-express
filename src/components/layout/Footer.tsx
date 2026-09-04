@@ -32,6 +32,7 @@ export function Footer() {
                 width={108}
                 height={32}
                 className="h-8 w-auto object-contain"
+                style={{ width: "auto", height: "auto" }}
               />
             </div>
             <h4 className="font-headline-sm text-headline-sm uppercase text-surface-container-lowest tracking-tight">

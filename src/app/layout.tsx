@@ -36,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="pt"
+      data-scroll-behavior="smooth"
       className={`${anybody.variable} ${spaceGrotesk.variable} ${jetBrainsMono.variable} h-full antialiased`}
     >
       <head>
@@ -51,33 +52,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
           rel="stylesheet"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-(function() {
-  if (typeof IntersectionObserver === 'undefined') return;
-  var io = new IntersectionObserver(function(entries) {
-    entries.forEach(function(entry) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        io.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-  function initReveal() {
-    document.querySelectorAll('.reveal, .reveal-stagger-1, .reveal-stagger-2, .reveal-stagger-3, .reveal-stagger-4, .reveal-stagger-5, .reveal-stagger-6').forEach(function(el) {
-      io.observe(el);
-    });
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initReveal);
-  } else {
-    initReveal();
-  }
-})();
-            `.trim(),
-          }}
         />
       </head>
       <body className="min-h-full flex flex-col bg-surface text-on-surface">

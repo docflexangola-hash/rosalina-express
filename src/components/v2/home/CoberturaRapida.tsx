@@ -38,12 +38,13 @@ export function CoberturaRapida() {
               </tr>
             </thead>
             <tbody>
-              {cobertura.provinces.map((p, i) => (
-                <Reveal
-                  key={i}
-                  stagger={Math.min(i + 1, 6) as 1 | 2 | 3 | 4 | 5 | 6}
-                >
-                  <tr className={i % 2 === 0 ? "bg-surface" : "bg-surface-container-low"}>
+              {cobertura.provinces.map((p, i) => {
+                const stagger = Math.min(i + 1, 6) as 1 | 2 | 3 | 4 | 5 | 6;
+                return (
+                  <tr
+                    key={i}
+                    className={`reveal reveal-stagger-${stagger} ${i % 2 === 0 ? "bg-surface" : "bg-surface-container-low"}`}
+                  >
                     <td className="border-2 border-on-surface px-4 py-3">
                       <div className="flex items-center gap-2">
                         {p.capital && (
@@ -93,8 +94,8 @@ export function CoberturaRapida() {
                       </span>
                     </td>
                   </tr>
-                </Reveal>
-              ))}
+                );
+              })}
             </tbody>
           </table>
         </div>
